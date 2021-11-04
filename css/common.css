@@ -1,0 +1,240 @@
+
+/* PROJECTS: EzFind, Categories, my
+##############################################
+          shared styles
+##############################################
+ */
+
+ 
+body {
+  font: 0.8em Arial, Helvetica, sans-serif;
+  margin:0;
+}
+
+#debug {
+  color:grey;
+}
+
+div,ul,p {
+  margin:0;
+  padding:0;
+  cursor:default;
+}
+
+a {
+  text-decoration:none;
+}
+
+button {
+  margin:0.5em;
+}
+
+.nodisplay_important{
+  display: none !important;
+}
+
+.nodisplay {
+  display: none;
+}
+
+
+input, body{
+/* Prevents text from being selected */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+/* input.textinput , select.textinput{ */
+.textinput {
+  color:black;
+  width: 95%;
+  font-family: Cambria, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  border: 1px solid #666;
+  padding-left:3px;
+}
+
+input[readonly="true"] {
+  background-color:#ffc;
+}
+
+#bodymask{
+  z-index:7000;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+}
+
+
+.box {
+  z-index:9000;
+  border:2px solid black;
+  position:absolute;
+  padding: 1em 2em;
+  background:#eee;
+  box-shadow:         0px 0px 6px 3px #222;
+  -moz-box-shadow:    0px 0px 6px 3px #222;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  text-align:center;
+}
+
+/* shared styles  END 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */ 
+
+   
+
+
+
+/* PROJECTS: EzFind, Categories, my
+##############################################
+          Content
+##############################################
+ */ 
+   
+#wrapper {
+  overflow:hidden;
+  background:white;
+  position:relative;
+}
+      
+   
+#wrappermask {
+  position:absolute;
+  background-color:rgba(0,0,0,0.1);
+  z-index:3000;
+}
+
+#dialogmask {
+  position:absolute;
+  background-color:rgba(20,20,20,0.7);
+  z-index:3000;
+}
+
+
+
+
+
+
+ 
+
+   
+   
+   
+/* PROJECTS: All
+##############################################
+          Audio volume slider
+##############################################
+Not really needed for this project
+ */
+ 
+.roundCorners {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; /* future proofing */
+  -khtml-border-radius: 10px; /* for old Konqueror browsers */
+ }
+
+#cont {
+  position:relative;
+  width:100px; 
+  height:12px;
+  padding:1px;
+  border: 2px solid #888;
+  background-color:white;
+}
+
+#ball {
+  position:relative; 
+  width:12px; 
+  height:12px; 
+  background-color:#1b1b1b;
+ }
+
+.cont_class {
+  position:relative;
+  width:80px; 
+  height:12px;
+  padding:1px;
+  border: 2px solid #888;
+  background-color:white;
+}
+
+.ball_class {
+  position:relative; 
+  width:12px; 
+  height:12px; 
+  background-color:#1b1b1b;
+ }
+ 
+/**** Styles for the box for getting the settings for the audio volumes */
+/* not used by the categories projecr */
+ .outer_sd {
+  width:245px;
+  height:2.5em;
+  position:relative;
+}
+ 
+ .inner_sd {
+   position:absolute; 
+   top:-1px;
+   right:2px;
+ }
+ 
+/* Audio volume slider.  END 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */ 
+   
+
+/* PROJECTS: EzFind, Categories, my
+##############################################
+   the box and mask for messages and yesno
+##############################################
+ */ 
+#msgbox {        /* for messages and yes/no box */      
+  z-index:10000;
+  text-align:center;
+  border:2px solid black;
+  border-radius: 4px;
+  position:absolute;
+  padding: 1em 3em;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  -moz-box-shadow: 0px 0px 6px 3px #222;
+  box-shadow: 0px 0px 6px 3px #222;
+}
+
+#msgboxmask {        /* for messages and yes/no box */
+  z-index:9500;
+  top:0; left:0; 
+  position:absolute;
+  background-color:#aaa;
+  opacity:0.6;
+}
+
+ 
+/* PROJECTS: EzFind, Categories, my
+##############################################
+   the loading spinner and its mask
+##############################################
+ */ 
+#loading {
+  z-index: 11000;
+  position:absolute;
+}
+      
+#loadingmask{
+  z-index:10500;
+  top:0; 
+  left:0; 
+  position:absolute;
+  background-color:#555;
+  opacity:0.4;
+  width:100%;
+  height:100%;
+}
+
+

@@ -1,0 +1,559 @@
+
+/* PROJECTS: EzFind
+##############################################
+          override styles
+##############################################
+ */ 
+#siteName {
+  text-shadow:2px 2px 0px #cb4;
+}
+
+#pageName {
+  color:#cb4;
+  text-shadow:1px 1px 0px white;
+}
+
+#tdhead{
+  z-index:500;
+  position:absolute;
+  margin:0;
+  //margin-top:53px;
+  top:53px;
+  font-weight:bold;
+  font-size:16px;
+  padding: 8px 25px;
+  background:#fff;
+  border-color:yellow;
+}
+
+#imgbox{
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+#topdiv ul li:hover  {
+  border:1px solid #cb4;
+  border:1px solid yellow;
+}
+
+#theMenu li ul.ul_2 {   
+	width: 150px;
+}
+
+
+#theMenu li ul.ul_3 {   /* this is for the Admin submenu items  */
+  left: -100px;
+	width: 235px;
+}
+
+#topdiv {
+ width:100%;
+  border-bottom:5px solid #cb4;
+}
+
+#bottomdiv {
+  border-top:5px solid #cb4;
+}
+
+#fixed_sidebar{
+  border:5px solid #cb4;
+  border-bottom:0;
+}
+
+#col1{
+}
+
+#content{
+  border-right:5px solid #cb4;
+}
+
+/* #col2{
+  width:73.5%;
+  float:left;
+}
+ */
+ 
+#col3{
+  //height:100%;
+  width:25%;
+  border-left:5px solid #cb4;
+  text-align:center;
+  float:right;
+}
+
+/* PROJECTS: EzFind
+##############################################
+          unique to EzFind
+##############################################
+ */ 
+div#startup {
+  padding : 2em;
+}
+
+/* forms
+   ========================================================================== */
+
+div.form {
+  border: 1px solid #666;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px 3px #222;
+  padding: 1em;
+  padding-bottom:2em;
+  margin: 2em 4%;
+  background-color:#ddd;
+}
+
+label {
+  display: block;
+  width: 15em;
+  text-align: left;
+}
+
+input.textinput , select.textinput{
+  width: 90%;
+  font-family: Cambria, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  border: 1px solid #666;
+/*   font-family: Cambria, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+ */  padding-left:3px;
+}
+
+#cb2 {
+  margin-right:4em;
+}
+ 
+ .cb_cls {
+  width: 1.5em;
+  height: 1.5em;
+  position:relative;
+  top:5px;
+}
+
+button , input[type="submit"] {
+padding:5px 15px;
+}
+
+div.bts {
+  text-align:center;
+  }
+
+ul.ul_style {
+  padding-left:10px;
+  list-style-type:none;
+}
+
+ul.ul_style li {
+  clear: both;
+  margin:0 5px;
+  padding:2px 5px;
+}
+
+h2.h2_m {
+  padding-left:10px;
+}
+
+h2.nobottom {
+  margin-bottom:0;
+  }
+  
+.thumbon {
+display:inline-block;
+height: 60px;
+}
+
+
+/* for showcat.php
+   ===================================== */
+   
+  
+/* table.odd { 
+  background-color:#ddd; 
+  
+}  
+table.even { 
+  background-color:#eee;
+}  
+ */
+div.odd , li.odd{ 
+  background-color:#ddd;
+  
+}  
+div.even, li.even { 
+  background-color:#eee;
+}  
+
+
+td.toprow {
+  padding-top: 3px;
+  padding-left: 10px;
+  white-space: nowrap;
+  overflow:hidden;
+  max-width: 200px;
+  font-weight:bold;
+}
+    
+td.botrow {
+  padding-bottom: 2px;
+  padding-left: 10px;
+  white-space: nowrap;
+  overflow:hidden;
+  max-width: 200px;
+}
+table {
+border-spacing:0px;
+}
+
+table.hilite {
+cursor: pointer;
+  border: solid 3px gold !important;
+  border-width:2px 0;
+  margin-bottom:0px;
+}
+
+table.lowlite {
+  cursor:default;
+  color:#222;
+}
+
+div.clsf {
+cursor: pointer;
+}
+
+div.listcell {
+  position:relative;
+  height:80px;
+  background:white;
+  border:2px solid black;
+  margin-top:-2px;
+  padding:5px;
+}
+
+
+div.hi {
+  height:86px;
+  margin-bottom:8px;
+  box-shadow:         inset 0px 0px 15px 1px #222;
+	-webkit-box-shadow: inset 0px 0px 15px 1px #222;
+  -moz-box-shadow:    inset 0px 0px 15px 1px #222;
+}
+ 
+img.imglogo {
+float:left;
+}
+
+table {
+  /* border:1px solid; */
+  width : 100%;
+  margin-bottom:-1px;
+border-spacing:0px;
+  }
+  
+table.outer {
+border:0;
+} 
+
+.bmenu { 
+  margin:0;
+  clear: both; 
+  height:32px;
+  background-color:#999;
+  background:#666;
+}
+.bmenu li  {
+cursor: default;
+  display: inline; 
+  padding: 8px; 
+  float:left; 
+  color: #000; 
+  font-weight: bold; 
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  min-width:40px;
+  max-width:80px;
+  color:#666;
+  margin-right:1px;
+}
+.bmenu li.active  { 
+  background: #eee;
+  color:black;
+}
+.content { 
+  background: #ddd;
+  background: #eee;
+  text-align:center;
+  vertical-align:middle;
+}
+
+#tabs_dialog {
+  border:2px solid black;
+  width:760px;
+  position:absolute;
+  z-index:8100;
+  padding:4px;
+  background:#666;
+}
+
+.tab_img {
+  text-align:center;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+input[type="text"]:disabled {
+  background: #eeeeee;
+}
+
+/* #col1,#topdiv {
+ position:fixed;
+ position:absolute;
+}
+ */
+ 
+/* #topdiv {
+ width:100%;
+}
+ */
+/* body {
+ width:100%;
+}
+ */
+
+/* added 2020.09.24
+ */
+
+/* for div which contains the images in col3
+   ================================================ */
+
+#addiv {
+  width:90%;
+  margin: 0 4.5%;
+  background-color:#fff;
+  margin-top: 10px;
+}
+
+#adimg{
+  border: 2px solid black;
+} 
+
+/* for a dialog box
+================================================ */
+   
+/* Customize your modal window here, you can add background image too */
+#dialog {
+  border:2px solid black;
+  position:absolute;
+  z-index:8100;
+  padding:2px;
+  background:#ccc;
+}
+
+#mask2 {
+  top:0; left:0; 
+  position:absolute;
+  z-index:8000;
+  background-color:#555;
+  opacity:0.7;
+}
+
+ div#d_ps {
+  background:#fff;
+  padding: 5px 0px;
+}
+ div#d_ps p{
+  margin: 0;
+  padding: 2px 10px;
+}
+#d_heading {
+  font-weight:bold;
+}
+
+
+#d_image.thin, p.thin {
+margin:10px auto ;
+}
+#d_image.fat, p.fat {
+margin:10px;
+}
+
+/* for the box and mask for getting a user name and password
+================================================ */
+
+.bbox {
+  border:2px solid black;
+  border-radius: 5px;
+  padding: 1em 2em;
+  //background:#ddd;
+  background:#eee;
+  box-shadow:         0px 0px 6px 3px #222;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  -moz-box-shadow:    0px 0px 6px 3px #222;
+  //background-color:#afa;
+}
+
+/* .box {
+  border:2px solid black;
+  border-radius: 4px;
+  position:absolute;
+  z-index:8100;
+  padding: 1em 3em;
+  background:#ddd;
+  box-shadow:         0px 0px 6px 3px #222;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  -moz-box-shadow:    0px 0px 6px 3px #222;
+}
+ */
+.mbox {
+  border:2px solid black;
+  border-radius: 4px;
+  position:absolute;
+  z-index:8600;
+  padding: 1em 3em;
+  background:#ddd;
+  box-shadow:         0px 0px 6px 3px #222;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  -moz-box-shadow:    0px 0px 6px 3px #222;
+  
+  
+}
+
+#pw_and_login_mask {
+  top:0; left:0; 
+  position:absolute;
+  z-index:8000;
+  background-color:#555;
+  opacity:0.7;
+}
+
+#msgbox_mask {        /* for messages */       
+  top:0; left:0; 
+  position:absolute;
+  z-index:8500;
+  background-color:#555;
+  opacity:0.6;
+}
+
+/* for the box for changing a user name and password */
+.box2 {
+  border:2px solid black;
+  border-radius: 6px;
+  display:none;
+  padding: 1em 3em;
+  background:#ddd;
+  margin: 3em;
+  box-shadow:         0px 0px 6px 3px #222;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  -moz-box-shadow:    0px 0px 6px 3px #222;
+
+}
+
+.startbox {
+  position:absolute;
+  z-index:8100;
+  width: 420px;
+  padding: 1em 3em;
+ }
+
+.newpwbox {
+ margin: 2em 15%;
+}
+
+/* #pwcheck_id  {
+  margin: 3em 15%;
+}
+ */
+ 
+/* div.forminfo {
+  padding:0 2em;
+}
+ */ 
+ 
+div#businfo input, div#businfo textarea, div#clfinfo input, div#clfinfo textarea{
+  width:95%;
+}
+
+div#buscontact input, div#clfcontact input{
+  width:55%;
+}
+
+div#bott1 td {
+  padding-right:8px;
+  }
+  
+ .cb_cls2 {
+  width: 2.0em;
+  height: 1.8em;
+  position:relative;
+  top:-5px;
+}
+  
+table.inner1 {
+  border:0;
+  border-spacing:0;
+  padding-right:8px;
+  height:60px;
+  margin: 4px 0;
+}
+ table.inner2 {
+  border:0;
+  border-spacing:0;
+  padding-right:8px;
+  height:46px;
+  margin: 4px 0;
+}
+ 
+div.itemActive {
+  background-color: #ef9;
+}
+
+#addABusiness  input[type="text"],#addAClassified input[type="text"] {
+  margin-bottom:5px;
+}
+  
+/* .hd2{
+font-size:15px;
+font-weight:bold;
+margin-bottom:8px;
+} */
+
+.col2wide{
+  width:100%;
+}
+
+#ddmenu{
+  background:black;
+  position:absolute;
+  right:1.4%;
+  top:60px;
+  border: 2px solid white;
+  padding:2px;
+  box-shadow:         0px 0px 6px 3px #222;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  -moz-box-shadow:    0px 0px 6px 3px #222;
+}
+
+#ddmenu button{
+  padding:0;
+  }
+  
+.pe_p{
+  margin:2px 0;
+}
+
+#pop_menu{
+  background:white;
+  position:absolute;
+  right:1.4%;
+  top:60px;
+  border: 2px solid white;
+  padding:6px;
+  box-shadow:         0px 0px 6px 3px #222;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  -moz-box-shadow:    0px 0px 6px 3px #222;
+  width:150px;
+}
+
+#pop_buttons button{
+ margin:3px;
+ padding: 2px 8px;
+ }

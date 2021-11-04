@@ -1,0 +1,195 @@
+/* PROJECTS: EzFind, Categories, my
+##############################################
+          top div styles
+##############################################
+ */ 
+
+
+#siteName {
+  left:-20000px;
+  font: 3.5em  Cambria, 'Times New Roman', serif;
+  font-weight:bold;
+  margin: 0;
+  position:absolute;
+  /* text-shadow:3px 2px 0px #bbb; */
+  color:white;
+  padding-top: 10px;
+  z-index: 20;
+}
+
+#pageName {
+  left:-20000px;
+  background-color:#1b1b1b;
+  font: 2.5em  Cambria, 'Times New Roman', serif;
+  font-weight:bold;
+  margin: 0 15px;
+  margin: 0 1%;
+  position:absolute;
+  color:#bbb;
+  padding-top: 23px;
+  padding-right: 10px;
+  white-space:nowrap;
+  overflow:auto;
+  /* text-shadow:1px 1px 0px white; */
+}
+
+#topmenucontainer {
+  padding-top:25px;
+  background-color:#1b1b1b;
+  position:absolute;
+  z-index: 130;
+}
+
+#topmenumask {
+  background-color: rgba(0,0,0,0.2);
+  position:absolute;
+  z-index:6000;
+ }
+ 
+#toprightmenumask {
+  background-color: rgba(0,0,0,0.2);
+  position:absolute;
+  right:0;
+  z-index:6000;
+ }
+ 
+/* topdiv  END 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */ 
+
+
+/* PROJECTS: EzFind, Categories, my
+##############################################
+        <ul> menu styles
+##############################################
+ */ 
+ 
+#theMenu {
+	list-style: none;
+  z-index:5000;
+  position:relative;
+  float:left;
+  width:100%;
+ }
+ 
+#theMenu li {
+	font:  12px/16px  Geneva, Arial,"Helvetica Neue", Helvetica,Cambria,   sans-serif;
+  float:left;
+	position: relative;
+	cursor: default;
+  border:1px solid #888;
+	color: #ddd;
+  background-color:black;
+	padding: 6px 11px;
+}
+
+ #theMenu li:hover  {
+	color: white;
+  border:1px solid yellow;
+}
+
+#theMenu li ul {
+	padding: 0;
+	position: absolute;
+	top: 29px;
+	left: -1px;
+	-webkit-box-shadow: 0px 1px 2px 1px #555;
+  -moz-box-shadow:    0px 1px 2px 1px #555;
+  box-shadow:         0px 1px 2px 1px #555;
+  border-top: 1px solid #555;
+}
+
+#theMenu li ul li {
+	display: block;
+	float: none;
+  /* white-space:nowrap; */
+}
+
+#theMenu li:hover ul {
+	display: block;
+}
+
+#theMenu li.menuOn {
+  background-color: #070;
+  color:white;
+}
+ 
+/* <ul> menu  END 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */ 
+
+body {
+  //position:relative;
+  padding-top: 80px;
+}
+
+#topdiv {
+  background-color:#1b1b1b;
+  height: 80px;
+  width:100%;
+  position:fixed;
+  top:0;
+  right:0;
+  z-index:10;
+  border-bottom:5px solid orange;
+}
+
+
+/* .column {
+  float: left; 
+  background-color: #fff;
+}
+ */
+#col1 {
+  width:100%;
+}
+
+#col2 {
+  //width: 70%;
+  width:73.5%;
+  float:left;
+ }
+ 
+#col3 {
+  margin-left: 0.5%;
+  width:auto;
+  text-align:center;
+  height:100%;
+}
+
+/* Content  END 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */ 
+ 
+    
+    
+#fixed_sidebar {
+  position: fixed;
+  left:0;
+  width:21%;
+  overflow-y:auto;
+  overflow-x:hidden;
+  border:5px solid orange;
+  border-bottom:0;
+}
+ 
+#content {
+  margin-left:21%;
+  border-right:5px solid orange;
+  padding-left:1.5%;
+  min-height:250px;
+ }
+
+/* PROJECTS: EzFind, Categories, my
+##############################################
+          bottomdiv
+##############################################
+ */ 
+   
+#bottomdiv {
+  background-color:#1b1b1b;
+  color:white;
+  padding:1px 10px;
+  position:relative;
+  border-top:5px solid orange;
+}
+
+/* bottomdiv  END 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */ 

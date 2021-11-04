@@ -1,0 +1,126 @@
+
+/* PROJECTS: EzFind, Categories, my
+##############################################
+          catlist styles
+##############################################
+ */
+#catlistdiv {
+  line-height: 16px;
+  margin: 0 5% 10px 4%;
+  font-weight: bold;
+  position:relative;
+  width:90%;
+}
+
+.subcatlistdiv {
+  width:100%;
+  position:relative;
+  margin-left:10px;
+ }
+ 
+#catlistdiv div.items {
+  margin-bottom:-1px;
+  padding: 3px 8px 3px 0px;
+  position:relative;
+  white-space:nowrap;
+  }
+  
+#catlistdiv > div > span:hover{
+text-decoration:underline;
+}
+
+#catlistdiv > div {
+position:relative;
+}
+
+.subcatlistdiv > div {
+position:relative;
+}
+
+span.indx{
+  display:inline-block;
+  width : 15px;
+  //padding:0px 0px 0px 4px;
+  padding-left:4px;
+  text-align:center;
+}
+
+.itemName {
+  padding-left:3px;
+  padding-right:3px;
+  white-space:nowrap;
+  left:19px; 
+  z-index:10;
+  overflow:visible;
+}
+
+#itemPopup {
+  font-weight:bold;
+  position:absolute;
+  padding-left:3px;
+  padding-right:4px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  white-space:nowrap;
+  background-color:#eee;   /* must be same as .column background color */
+  text-decoration:underline;
+  z-index:10;
+}
+
+.chosen {
+  background-color: #464 !important;
+  color: white;
+}
+
+/**** Styles for the box for adding/editing the categories */
+ 
+.boxx {
+  border:2px solid black;
+  border-radius: 4px;
+  margin: 2em 7%;
+  padding: 1em 3em;
+  background:#eee;
+  box-shadow:         0px 0px 6px 3px #222;
+	-webkit-box-shadow: 0px 0px 6px 3px #222;
+  -moz-box-shadow:    0px 0px 6px 3px #222;
+}
+ 
+ul.ul_style {
+  padding-left:16px;
+  list-style-type:none;
+}
+
+ul.ul_style li {
+  clear: both;
+  margin:0 5px;
+  //padding:2px 5px;
+}
+ 
+
+.notActiveInput {
+  background-color:#ddd !important;
+}
+
+div.okButton {
+  text-align:center;
+  }
+  
+/* catlist styles END 
+   XXXXXXXXXXXXXXXXXXXXXXXXX */ 
+
+
+/* PROJECTS: Categories
+##############################################
+          override styles
+##############################################
+ */
+ 
+ 
+#topdiv ul li:hover  {
+  border:1px solid #f00;
+}
+
+#theMenu li ul.ul_3 {
+	left: -40px;
+  width: 160px;
+}
